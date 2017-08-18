@@ -1,0 +1,128 @@
+@font-face { font-family: 'nitti';
+            src: url('../fonts/Nitti_Light.woff') format('woff')
+            }
+
+
+@media screen and (min-width: 481px) {}
+
+body{
+margin:0%;
+-webkit-text-size-adjust: none;
+
+
+}
+
+/* Nav */
+
+#nav {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid black;
+  float: left;
+
+}
+
+.bar-item{
+  float: right;
+  position: middle;
+  font-size: calc(12px + 1.2vmin);
+  font-family: 'nitti';
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  border-left: 1px solid black;
+
+}
+
+.left{
+  float: left;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ccc;
+}
+
+
+/* Film Menu */
+
+.targetDiv {
+    display: none
+}
+
+
+/* Content */
+
+
+.container {
+
+/*   display: inline-block; */
+}
+
+.film{
+  width: 100%;
+  display: block;
+  margin-bottom: .5em;
+}
+
+.film:hover {
+  /*background-color: yellow;*/
+  background-color: #fffef2;
+}
+
+.title {
+  width: 100%;
+  border-bottom: solid 3px black;
+  text-align: center;
+  font-size: calc(2.5em + 1.2vmin);
+  font-family: 'nitti';
+  /*padding: 0.25em 0 0.25em 0;*/
+  padding-top: 0.2em;
+  cursor: pointer;
+  clear: left;
+  display: block;
+}
+
+.imagecontainer{
+  overflow: visible !important;
+}
+
+.imagecontainer img {
+  /*border: 1px solid red;*/
+  background-color: green;
+  height: 26%;
+	/*float: left;*/
+	/*cursor: pointer;*/
+  overflow: auto;
+  position:fixed;
+}
+
+
+#player-video {
+    width: 100vw;
+}
+
+
+#info{
+  padding: 3em 10% 3em 10%;
+  font-family: 'nitti';
+  font-size: calc(12px + 1.2vmin);
+  border-bottom: 1px solid black;
+
+}
+
+table{
+    margin-top: 3em;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: calc(12px + 1.2vmin);
+}
+
+th, td {
+    padding: 0.4em 0 0.4em 0;
+    border-bottom: 1px solid black;
+}
